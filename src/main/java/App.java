@@ -18,12 +18,12 @@ public class App {
         String n2 = sc1.nextLine();
 
         PhanSo ps1 = new PhanSo();
-        ps.fromString(n1);
-        ps.print();
+        ps1.fromString(n1);
+        ps1.print();
 
         PhanSo ps2 = new PhanSo();
-        ps.fromString(n2);
-        ps.print();
+        ps2.fromString(n2);
+        ps2.print();
 
 
     }
